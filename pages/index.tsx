@@ -10,9 +10,12 @@ export default function Home(): ReactElement {
       <Head>
         <title>lamlam</title>
         <meta property="og:title" content="lamlam" key="title" />
-        <meta property="og:image" content="/og.png" key="image" />
+        <meta property="og:image" content="https://lamlam.dev/og.png" key="image" />
+        <meta property="og:image:width" content="400" key="imagew" />
+        <meta property="og:image:height" content="300" key="imageh" />
         <meta property="og:url" content="https://lamlam.dev" key="url" />
         <meta property="og:type" content="website" key="type" />
+        <meta name="twitter:card" content="summary" key="card" />
       </Head>
       <Flex
         flexDirection="column"
