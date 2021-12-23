@@ -3,9 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link href="tailwind.css" rel="stylesheet" />
+    <link href="twitter-icon.svg" rel="preload" as="image" />
+    <link href="github-icon.svg" rel="preload" as="image" />
+    <link href="favicon.ico" rel="icon" />
+
+    <title>lamlam</title>
+
+    <meta property="og:title" content="lamlam" key="title" />
+    <meta property="og:image" content="https://lamlam.dev/og.png" key="image" />
+    <meta property="og:image:width" content="400" key="imagew" />
+    <meta property="og:image:height" content="300" key="imageh" />
+    <meta property="og:url" content="https://lamlam.dev" key="url" />
+    <meta property="og:type" content="website" key="type" />
+    <meta name="twitter:card" content="summary" key="card" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline bg-gray-200">Hello world!</h1>
+    <div class="flex flex-col justify-center items-center min-h-screen">
+      <h1 class="text-8xl">lamlam</h1>
+      <ul class="flex flex-row py-12" role="list">
+        <li class="mx-4">
+          <a href="https://twitter.com/lamlam4r"
+            ><img src="twitter-icon.svg" width="64px" height="64px"
+          /></a>
+        </li>
+        <li class="mx-4">
+          <a href="https://github.com/lamlam"
+            ><img src="github-icon.svg" width="64px" height="64px"
+          /></a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
