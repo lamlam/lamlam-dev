@@ -2,7 +2,7 @@
 
 This repository contains [lamlam.dev](https://lamlam.dev)'s contents.
 
-# Getting Start
+# Getting start
 
 ```sh
 # Install dependencies
@@ -15,7 +15,9 @@ $ npm run watch
 $ npm start
 ```
 
-# How to edit
+At this point editting `./public/index.html` will generate new css file.
+After reloading browser, new style was applied to html.
 
-Edit `./public/index.html`
+# License
 
+MIT License except icon images
