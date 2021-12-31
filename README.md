@@ -2,7 +2,7 @@
 
 This repository contains [lamlam.dev](https://lamlam.dev)'s contents.
 
-# Getting start
+# Getting Started
 
 ```sh
 # Install dependencies
