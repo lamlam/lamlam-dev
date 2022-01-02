@@ -3,8 +3,8 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "watch": "tailwindcss -i ./tailwind.css -o ./public/tailwind.css --watch",
-    "build": "tailwindcss -i ./tailwind.css -o ./public/tailwind.css --minify",
+    "watch": "tailwindcss -i ./main.css -o ./public/main.css --watch",
+    "build": "tailwindcss -i ./main.css -o ./public/main.css --minify",
     "start": "serve public"
   },
   "devDependencies": {

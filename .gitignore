@@ -18,7 +18,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # tailwindcss
-public/tailwind.css
+public/main.css
 
 # firebase
 .firebaserc
